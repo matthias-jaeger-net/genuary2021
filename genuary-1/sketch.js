@@ -1,5 +1,9 @@
-// TRIPLE NESTED LOOP
-// Matthias Jäger, 2021-01-01
+/**
+ * TRIPLE NESTED LOOP
+ *
+ * Matthias Jäger
+ * genuary2021 | Day 1
+ */
 
 function setup() {
    createCanvas(800, 800, WEBGL);
@@ -11,10 +15,7 @@ function setup() {
    camera(0, 0, 800, 0, 0, 0, 1, 0, 1);
    background(255);
    translate(-half, -half, 0);
-   //translate(0, -half * 0.5, 0);
    rotateX(0);
-
-   // The loop
    for (let x = 0; x < width; x += side) {
       for (let y = 0; y < height; y += side) {
          for (let z = -width; z < 0; z += side) {
