@@ -1,17 +1,7 @@
 # genuary2021
 ![img](images/cover.jpg)
-This is a small collection of JavaScript programs with visual output written for the [#genuary2021](https://genuary2021.github.io/) challenge on my [instagram](https://www.instagram.com/_matthiasjaeger/). Click on the image to visit a demo or use the link in the the title to get the code for each sketch.
 
-## I used these tools
-- [p5-js](https://p5js.org) as my main renderer
-- *Self written tools*
-- - [p5-toolkit](https://github.com/matthias-jaeger-net/p5-toolkit)
-- - [p5-glitch-effects](https://github.com/matthias-jaeger-net/p5-glitch-effects)
-- - [colorful-stripes](https://github.com/matthias-jaeger-net/colorful-stripes)
-
-# Sketches
-
-All examples are stored in [genuary2021](https://github.com/matthias-jaeger-net/genuary2021) and hosted live as github pages [here](https://matthias-jaeger-net.github.io/genuary2021/).
+This is a small collection of JavaScript programs with visual output written for the [#genuary2021](https://genuary2021.github.io/) challenge on my [instagram](https://www.instagram.com/_matthiasjaeger/). Click on the image to visit a demo or use the link in the the title to get the code for each sketch. I used [p5-js](https://p5js.org) as my main renderer and these self written tools: [p5-toolkit](https://github.com/matthias-jaeger-net/p5-toolkit), [p5-glitch-effects](https://github.com/matthias-jaeger-net/p5-glitch-effects), [colorful-stripes](https://github.com/matthias-jaeger-net/colorful-stripes). All examples are stored in [genuary2021](https://github.com/matthias-jaeger-net/genuary2021) and hosted live as github pages [here](https://matthias-jaeger-net.github.io/genuary2021/).
 
 ## [Triple nested loop](https://github.com/matthias-jaeger-net/genuary2021/tree/main/genuary-1)
 
