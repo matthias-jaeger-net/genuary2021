@@ -55,6 +55,7 @@ Wrote several functions that help me get this simple animation done. The geometr
 [![img](images/gen6.jpg)](genuary-6)
 
 ## Generate some rules, then follow them by hand on paper
+```
 Take a paper
 Take a pen
 Move at a random location
@@ -65,6 +66,14 @@ Pen up
 Look at the paper
 Repeat until MAXLINES
 Then start filling voids with black
+```
 *Permanent marker on 300x400 mm, 200g, Watercolor paper*
 
 ![img](images/gen7.jpg)
+
+
+## [Curve only](https://github.com/matthias-jaeger-net/genuary2021/tree/main/genuary-8)
+
+Inspired by floral drawings and minimalist aestethics I imagine a wild composition of blades of grass in a virtual landscape.
+
+[![img](images/gen8.jpg)](genuary-8)
