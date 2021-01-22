@@ -97,3 +97,71 @@ I took a pen and sketched a landscape with a lone tree in the center. I imagine 
 ### [Code](https://github.com/matthias-jaeger-net/genuary2021/tree/main/genuary-10), [Live Demo](https://matthias-jaeger-net.github.io/genuary2021/genuary-10/)
 
 ![img](images/gen10.jpg)
+
+
+## 11 | Use something other than a computer as an autonomous process (or use a non-computer random source).
+
+I didn't have a quartz to swing nor a sensor. Also I didn't feel like throwing a dice so I used two abitrairy landscape images as a lookup table. I measured all brightness values and divided by 255. What I end up is a single array with floating point numbers between 0 and 1. These numbers I used as a scaler for the radius of point rotating on a circle.
+
+### [Code](https://github.com/matthias-jaeger-net/genuary2021/tree/main/genuary-11), [Live Demo](https://matthias-jaeger-net.github.io/genuary2021/genuary-11/)
+
+![img](images/gen11.jpg)
+
+
+## 12 | Use an API
+
+**"I let go of what I was holding onto"**. In these images I combined the Google Fonts API and my glitch effects library together.
+
+### [Code](https://github.com/matthias-jaeger-net/genuary2021/tree/main/genuary-12), [Live Demo](https://matthias-jaeger-net.github.io/genuary2021/genuary-12/)
+
+![img](images/gen12.jpg)
+
+
+## 13 | Do not repeat.
+
+A rather impossible task in programming. I kept repetitions it to the bare minimum in this short program. I did not use for loops, while loops or recursion. I'm using three different shapes, too not repeat myself too much. It's a very simple geometric composition, but the colors are randomly chosen from a list with three defined and one generated color.
+
+### [Code](https://github.com/matthias-jaeger-net/genuary2021/tree/main/genuary-13), [Live Demo](https://matthias-jaeger-net.github.io/genuary2021/genuary-13/)
+
+![img](images/gen13.jpg)
+
+## 14 | SUBDIVISION
+
+Hard to explain and very long, but basically a polygonized subdivison of a virtual circle segemented from the outside to the inside
+
+### [Code](https://github.com/matthias-jaeger-net/genuary2021/tree/main/genuary-14), [Live Demo](https://matthias-jaeger-net.github.io/genuary2021/genuary-14/)
+
+![img](images/gen14.jpg)
+
+## 15 | Let someone else decide the general rules of your piece.
+
+"Make snowflakes, each one different", requested by Sabine led me to this abstraction. I started of a simple class wrapping a randomized polygon, that can fall down. Then I made a system of many falling flakes, each flake with a different speed. As the flakes fall they leave colorful traces on the canvas resulting in an eveer-changing graphical image.
+
+### [Code](https://github.com/matthias-jaeger-net/genuary2021/tree/main/genuary-14), [Live Demo](https://matthias-jaeger-net.github.io/genuary2021/genuary-14/)
+
+![img](images/gen15.jpg)
+
+## 16 | Circles only
+
+A noisy and moody animation of points along a circle
+
+### [Code](https://github.com/matthias-jaeger-net/genuary2021/tree/main/genuary-16), [Live Demo](https://matthias-jaeger-net.github.io/genuary2021/genuary-16/)
+
+![img](images/gen16.jpg)
+
+## 17 |  Draw a line, pick a new color, move a bit.
+
+Flowing curvy lines with a 2D Perlin noise field, picking a random color from a list.
+
+### [Code](https://github.com/matthias-jaeger-net/genuary2021/tree/main/genuary-17), [Live Demo](https://matthias-jaeger-net.github.io/genuary2021/genuary-17/)
+
+![img](images/gen17.jpg)
+
+
+## 18 | One process grows, another process prunes.
+
+Shrinking the radius and increasing a random offset while the animation goes on
+
+### [Code](https://github.com/matthias-jaeger-net/genuary2021/tree/main/genuary-18), [Live Demo](https://matthias-jaeger-net.github.io/genuary2021/genuary-18/)
+
+![img](images/gen18.jpg)
