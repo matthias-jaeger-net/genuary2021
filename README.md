@@ -53,3 +53,18 @@ How little code can you write to make something interesting? I made noisy black 
 Wrote several functions that help me get this simple animation done. The geometry you see is calculated from 3 given vectors and rotated, styled and diplayed in a p5 WEBGL canvas.
 
 [![img](images/gen6.jpg)](genuary-6)
+
+## Generate some rules, then follow them by hand on paper
+Take a paper
+Take a pen
+Move at a random location
+Pen down
+Move at a random location
+Wiggle or not
+Pen up
+Look at the paper
+Repeat until MAXLINES
+Then start filling voids with black
+*Permanent marker on 300x400 mm, 200g, Watercolor paper*
+
+![img](images/gen7.jpg)
