@@ -46,3 +46,10 @@ I traveled along random angles of a circle and at every angle sketched a rectang
 How little code can you write to make something interesting? I made noisy black dots.
 
 [![img](images/gen5.jpg)](genuary-5)
+
+
+## [Triangle subdivision](https://github.com/matthias-jaeger-net/genuary2021/tree/main/genuary-6)
+
+Wrote several functions that help me get this simple animation done. The geometry you see is calculated from 3 given vectors and rotated, styled and diplayed in a p5 WEBGL canvas.
+
+[![img](images/gen6.jpg)](genuary-6)
