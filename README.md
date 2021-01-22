@@ -77,3 +77,10 @@ Then start filling voids with black
 Inspired by floral drawings and minimalist aestethics I imagine a wild composition of blades of grass in a virtual landscape.
 
 [![img](images/gen8.jpg)](genuary-8)
+
+
+## [Interference patterns](https://github.com/matthias-jaeger-net/genuary2021/tree/main/genuary-9)
+
+Simple circles moving on the screen shape beautiful patterns.
+
+[![img](images/gen9.jpg)](genuary-9)
