@@ -1,4 +1,5 @@
 # genuary2021
+![img](images/cover.jpg)
 A collection of creative JavaScript programs with visual output written for the [#genuary2021](https://genuary2021.github.io/) challenge on my [instagram](https://www.instagram.com/_matthiasjaeger/). Click on the image to visit a demo or use the link to get the code.
 
 ## I used these tools
