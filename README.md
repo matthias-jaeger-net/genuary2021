@@ -74,3 +74,11 @@ Inspired by floral drawings and minimalist aestethics I imagine a wild compositi
 Simple circles moving on the screen shape beautiful patterns.
 
 [![img](images/gen9.jpg)](genuary-9)
+
+
+
+## [TREE](https://github.com/matthias-jaeger-net/genuary2021/tree/main/genuary-10)
+
+I took a pen and sketched a landscape with a lone tree in the center. I imagine each branch would grow more branches, rotated by an angle. This is the classic recursive implementation, similar to the examples available online, but in this one I took great attention to the rendering. I designed the braches to respect the level of recusion. A semi-random structure of leaves with polygons remind f foliage. To give it more depth I added a ground and a sky. For these I used  horizontal lines modified by perlin noise to get that hand-drawn, sketchy look I wanted.
+
+[![img](images/gen10.jpg)](genuary-10)
