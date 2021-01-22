@@ -39,3 +39,10 @@ During the lockdons due to the corona virus I missed seeing my human friends in 
 I traveled along random angles of a circle and at every angle sketched a rectangle on the page. Using my function sym() I cut small areas of the canvas and show the image next to a reflected version of itself.
 
 [![img](images/gen4.jpg)](genuary-4)
+
+
+## [Do some code golf!](https://github.com/matthias-jaeger-net/genuary2021/tree/main/genuary-5)
+
+How little code can you write to make something interesting? I made noisy black dots.
+
+[![img](images/gen5.jpg)](genuary-5)
