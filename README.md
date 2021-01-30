@@ -11,7 +11,8 @@
 ### 2021-01-01 | Triple nested loop
 
 #### In this program explored the flow of a triple nested for loop in a webgl canvas. I create a three-dimensional grid of boxes in the center of the canvas. Each box is rotated and scaled with a value from the `noise()` function to get this fluid look.
-Links: [Code](https://github.com/matthias-jaeger-net/genuary2021/tree/main/code/genuary-01) / [Live Demo](https://matthias-jaeger-net.github.io/genuary2021/code/genuary-01/)
+
+Links: [Code](https://github.com/matthias-jaeger-net/genuary2021/tree/main/code/genuary-01), [Live Demo](https://matthias-jaeger-net.github.io/genuary2021/code/genuary-01/)
 
 ![img](images/gen01.jpg)
 
@@ -21,6 +22,7 @@ Links: [Code](https://github.com/matthias-jaeger-net/genuary2021/tree/main/code/
 #### I went for the standard 2D implementation with a initial randomly seeded row and then took it to 3D. I render cells that are alive as textured boxes and dead cells as textured planes. I modulate the height of the boxes with 2D noise for decorative reasons.
 
 Links: [Code](https://github.com/matthias-jaeger-net/genuary2021/tree/main/code/genuary-02), [Live Demo](https://matthias-jaeger-net.github.io/genuary2021/code/genuary-02/)
+
 
 ![img](images/gen02.jpg)
 
@@ -44,12 +46,14 @@ Links: [Code](https://github.com/matthias-jaeger-net/genuary2021/tree/main/code/
 
 ![img](images/gen04.jpg)
 
+![spacer](images/spacer.jpg)
 
 ### 2021-01-05 | Do some code golf!
 
 #### How little code can you write to make something interesting? I made noisy black dots.
 
 Links: [Code](https://github.com/matthias-jaeger-net/genuary2021/tree/main/code/genuary-05), [Live Demo](https://matthias-jaeger-net.github.io/genuary2021/code/genuary-05/)
+
 
 ![img](images/gen05.jpg)
 
@@ -63,6 +67,7 @@ Links: [Code](https://github.com/matthias-jaeger-net/genuary2021/tree/main/code/
 
 ![img](images/gen06.jpg)
 
+![spacer](images/spacer.jpg)
 
 ### 2021-01-07 | Generate some rules, then follow them by hand on paper
 ```
@@ -131,6 +136,7 @@ Links: [Code](https://github.com/matthias-jaeger-net/genuary2021/tree/main/code/
 
 ![img](images/gen12.jpg)
 
+![spacer](images/spacer.jpg)
 
 ### 2021-01-13 | Do not repeat.
 
@@ -152,12 +158,11 @@ Links: [Code](https://github.com/matthias-jaeger-net/genuary2021/tree/main/code/
 
 ![spacer](images/spacer.jpg)
 
-
 ### 2021-01-15 | Let someone else decide the general rules of your piece.
 
 #### "Make snowflakes, each one different", requested by Sabine led me to this abstraction. I started of a simple class wrapping a randomized polygon, that can fall down. Then I made a system of many falling flakes, each flake with a different speed. As the flakes fall they leave colorful traces on the canvas resulting in an eveer-changing graphical image.
 
-Links: [Code](https://github.com/matthias-jaeger-net/genuary2021/tree/main/code/genuary-14), [Live Demo](https://matthias-jaeger-net.github.io/genuary2021/code/genuary-14/)
+Links: [Code](https://github.com/matthias-jaeger-net/genuary2021/tree/main/code/genuary-15), [Live Demo](https://matthias-jaeger-net.github.io/genuary2021/code/genuary-15/)
 
 ![img](images/gen15.jpg)
 
@@ -187,7 +192,7 @@ Links: [Code](https://github.com/matthias-jaeger-net/genuary2021/tree/main/code/
 
 Shrinking the radius and increasing a random offset while the animation goes on
 
-Links: [Code](https://github.com/matthias-jaeger-net/genuary2021/tree/main/codee/genuary-18), [Live Demo](https://matthias-jaeger-net.github.io/code/genuary2021/genuary-18/)
+Links: [Code](https://github.com/matthias-jaeger-net/genuary2021/tree/main/code/genuary-18), [Live Demo](https://matthias-jaeger-net.github.io/genuary2021/code/genuary-18/)
 
 ![img](images/gen18.jpg)
 
@@ -197,7 +202,7 @@ Links: [Code](https://github.com/matthias-jaeger-net/genuary2021/tree/main/codee
 
 #### Used noise to create colorful lines that dissolve into points in the lower half of the composition.
 
-Links: [Code](https://github.com/matthias-jaeger-net/genuary2021/tree/main/codee/genuary-19), [Live Demo](https://matthias-jaeger-net.github.io/code/genuary2021/genuary-19/)
+Links: [Code](https://github.com/matthias-jaeger-net/genuary2021/tree/main/code/genuary-19), [Live Demo](https://matthias-jaeger-net.github.io/genuary2021/code/genuary-19/)
 
 ![img](images/gen19.jpg)
 
@@ -207,8 +212,125 @@ Links: [Code](https://github.com/matthias-jaeger-net/genuary2021/tree/main/codee
 
 #### I used quite a bit of recursion and perlin noise multitplied by a small value to create today's images. Otherwise this is built from my recursive tree example, but uses circles on the calculated endpoints. The script seems unpredictable but produces beautiful complex images.
 
-Links: [Code](https://github.com/matthias-jaeger-net/genuary2021/tree/main/codee/genuary-29), [Live Demo](https://matthias-jaeger-net.github.io/code/genuary2021/genuary-20/)
+Links: [Code](https://github.com/matthias-jaeger-net/genuary2021/tree/main/code/genuary-20), [Live Demo](https://matthias-jaeger-net.github.io/genuary2021/code/genuary-20/)
 
 ![img](images/gen20.jpg)
 
 ![spacer](images/spacer.jpg)
+
+### 2021-01-21 | The function f
+
+#### This time I had to modify the given function f and added an exit condition to prevent too much recursion. After that and keeping my sanity I started jamming with circles and colors too make this geometric image for you after all.
+
+Links: [Code](https://github.com/matthias-jaeger-net/genuary2021/tree/main/code/genuary-21), [Live Demo](https://matthias-jaeger-net.github.io/genuary2021/code/genuary-21/)
+
+```
+function f(x) {
+    DRAW(x);
+    f(1 * x / 4);
+    f(2 * x / 4);
+    f(3 * x / 4);
+}
+```
+
+![img](images/gen21.jpg)
+
+![spacer](images/spacer.jpg)
+
+### 2021-01-22 | Draw a line. Wrong answers only.
+
+#### For today's program I refactored an older line graphic program (2018-2020) to use the color-scheme I have been working on latley. The script allows you to draw lines with your mouse, but not like you would expect. A certain number of randomly orientated unit vectors is multiplied by a randomly picked constant length. All generated lines are tested and only those that do not intersect an existing line-segement are permitted in the graph.
+
+Links: [Code](https://github.com/matthias-jaeger-net/genuary2021/tree/main/code/genuary-22), [Live Demo](https://matthias-jaeger-net.github.io/genuary2021/code/genuary-22/)
+
+![img](images/gen22.jpg)
+
+![spacer](images/spacer.jpg)
+
+### 2021-01-23 | #264653 #2a9d8f #e9c46a #f4a261 #e76f51, no gradients.
+
+#### I used todays colors on rounded rectangles in a perfect loop animation. The design is my own thing but I used a tutorial read (link below). After having the basic structure down I modified it with 2D noise and trigonometric functions. A for loop is going over the all colors and uses the numbers to render this colorful animation on stage. Used ffmpeg over the command line to convert the image output to this video.
+
+Links: [Code](https://github.com/matthias-jaeger-net/genuary2021/tree/main/code/genuary-23), [Live Demo](https://matthias-jaeger-net.github.io/genuary2021/code/genuary-23/)
+
+![img](images/gen23.jpg)
+
+![spacer](images/spacer.jpg)
+
+### 2021-01-24 | 500 lines.
+
+#### In color, with noise & animated. :D
+
+Links: [Code](https://github.com/matthias-jaeger-net/genuary2021/tree/main/code/genuary-24), [Live Demo](https://matthias-jaeger-net.github.io/genuary2021/code/genuary-24/)
+
+![img](images/gen24.jpg)
+
+![spacer](images/spacer.jpg)
+
+### 2021-01-25 | Make a grid of permutations of something.
+
+#### Unexpected results to come, the future is ahead. I started with a grid and ended with a diffusion-limited aggregation pattern in color.
+
+Links: [Code](https://github.com/matthias-jaeger-net/genuary2021/tree/main/code/genuary-25), [Live Demo](https://matthias-jaeger-net.github.io/genuary2021/code/genuary-25/)
+
+![img](images/gen25.jpg)
+
+![spacer](images/spacer.jpg)
+
+### 2021-01-26 | 2D Perspective.
+
+#### A randomly generated arrangement of colorful boxes in a WEBGL canvas appears to me like a perspective view in an asian megacity at night.
+
+Links: [Code](https://github.com/matthias-jaeger-net/genuary2021/tree/main/code/genuary-26), [Live Demo](https://matthias-jaeger-net.github.io/genuary2021/code/genuary-26/)
+
+![img](images/gen26.jpg)
+
+![spacer](images/spacer.jpg)
+
+### 2021-01-27 | Monochrome gradients without lines.
+
+#### Wrote a function that returns an image with a linear gradient from black to white. Then used it in a composition loop.
+
+Links: [Code](https://github.com/matthias-jaeger-net/genuary2021/tree/main/code/genuary-27), [Live Demo](https://matthias-jaeger-net.github.io/genuary2021/code/genuary-27/)
+
+![img](images/gen27.jpg)
+
+![spacer](images/spacer.jpg)
+
+### 2021-01-28 | Use sound.
+
+#### This images visualize the frequency spectrum of live audio input over time. I reworked the p5.sound example code from a linear to a circular design and don't clear the background. As an input sound I used the smooth pop song "Night Train" from *https://soundcloud.com/buebuemusic*
+
+
+Links: [Code](https://github.com/matthias-jaeger-net/genuary2021/tree/main/code/genuary-28), [Live Demo](https://matthias-jaeger-net.github.io/genuary2021/code/genuary-28/)
+
+![img](images/gen28.jpg)
+
+![spacer](images/spacer.jpg)
+
+### 2021-01-29 | Any shape, none can touch.
+
+#### Colorful circles growing in a circle until they touch any circle inside a circle.
+
+Links: [Code](https://github.com/matthias-jaeger-net/genuary2021/tree/main/code/genuary-29), [Live Demo](https://matthias-jaeger-net.github.io/genuary2021/code/genuary-29/)
+
+![img](images/gen29.jpg)
+
+![spacer](images/spacer.jpg)
+
+### 2021-01-30 | Replicate a natural concept (e.g. gravity, flocking, path following).
+
+#### I refactored the demonstration of Craig Reynolds "Flocking" behavior by Daniel Shiffman to a non animated, colorful version that gives me a single static image every time I call it.
+
+Links: [Code](https://github.com/matthias-jaeger-net/genuary2021/tree/main/code/genuary-30), [Live Demo](https://matthias-jaeger-net.github.io/genuary2021/code/genuary-30/)
+
+![img](images/gen30.jpg)
+
+![spacer](images/spacer.jpg)
+
+### 2021-01-31 | Finale
+```
+10 SEARCH FOR "ENO'S OBLIQUE STRATEGIES"
+20 OBTAIN ONE
+30 THAT IS YOUR PROMPT FOR TODAY
+```
