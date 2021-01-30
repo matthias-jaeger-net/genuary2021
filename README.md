@@ -324,7 +324,7 @@ Links: [Code](https://github.com/matthias-jaeger-net/genuary2021/tree/main/code/
 
 Links: [Code](https://github.com/matthias-jaeger-net/genuary2021/tree/main/code/genuary-30), [Live Demo](https://matthias-jaeger-net.github.io/genuary2021/code/genuary-30/)
 
-![img](images/30.jpg)
+![img](images/gen30.jpg)
 
 ![spacer](images/spacer.jpg)
 
